@@ -22,6 +22,22 @@ Ce pack ajoute cinq Patterns en français pour passer des informations client à
 
 Lorsqu’une sortie est réutilisée dans un autre Pattern, conserve les statuts **CONFIRMÉ**, **SUGGESTION** et **À CONFIRMER** sans transformer une proposition en fait établi.
 
+## Installation dans Fabric
+
+Dans Fabric, lance `fabric --setup`, choisis **Custom Patterns** dans le menu Tools et indique un dossier dédié, par exemple `~/fabric-custom-patterns`. Depuis la racine de ce dépôt, copie ensuite les cinq dossiers de Patterns dans ce dossier :
+
+```bash
+mkdir -p ~/fabric-custom-patterns
+cp -R data/patterns/brief_boutique_mobile \
+  data/patterns/normalize_product_catalogue \
+  data/patterns/spec_mobile_storefront \
+  data/patterns/prepare_whatsapp_order_demo \
+  data/patterns/audit_mobile_shop_prototype \
+  ~/fabric-custom-patterns/
+```
+
+Vérifie qu’ils apparaissent avec `fabric --listpatterns`. Si Fabric ne les trouve pas, relance `fabric --setup` et vérifie que le chemin **Custom Patterns** pointe vers le même dossier.
+
 ## Exemples
 
 Après installation ou mise à disposition de ces Patterns dans Fabric, passe les notes par l’entrée standard :
