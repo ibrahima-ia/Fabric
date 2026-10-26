@@ -15,6 +15,9 @@ Comprehensive guide for processing YouTube videos and playlists with Fabric. Cov
 **[Using-Speech-To-Text.md](./Using-Speech-To-Text.md)**
 Documentation for Fabric's speech-to-text capabilities using OpenAI's Whisper models. Learn how to transcribe audio and video files and process them through Fabric patterns.
 
+**[boutique-patterns.md](./boutique-patterns.md)**
+French-language Fabric patterns for mobile-first storefront briefs, product catalogues, order flows and prototype reviews.
+
 ### User Interface & Experience
 
 **[Desktop-Notifications.md](./Desktop-Notifications.md)**
